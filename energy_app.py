@@ -14,7 +14,7 @@ energy_sources = [
     'Other Biofuels', 'Biodiesel'
 ]
 
-st.title("🔋 Renewable Energy Forecast Explorer")
+st.title(" Renewable Energy Forecast Explorer")
 
 selected_source = st.selectbox("Select Energy Source", energy_sources)
 
@@ -25,7 +25,7 @@ st.subheader(f" Predicted Usage of {selected_source} in {selected_year}")
 st.metric(label="Estimated TWh", value=f"{np.random.uniform(20, 300):.2f} TWh")
 
 # Show sector dominance forecast
-st.subheader(f"📊 Predicted Sector Distribution for {selected_source}")
+st.subheader(f"Predicted Sector Distribution for {selected_source}")
 sector_predictions = {
     'Residential': np.random.uniform(10, 30),
     'Commercial': np.random.uniform(5, 25),
