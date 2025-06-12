@@ -46,12 +46,6 @@ This application enables:
 * Separate models trained for total usage and sector-specific forecasts.
 * Replace synthetic predictions (`np.random.uniform`) with trained model output using:
 
-
-```
-
----
-
 ## Author
-
 **Akinola Mofe**
 *AI & Data Science, Energy Enthusiast | Energy & Finance Applications*
