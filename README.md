@@ -39,4 +39,4 @@ This application enables:
 
 ## Author
 **Akinola Mofe**
-*AI & Data Science, Energy Enthusiast | Energy & Finance Applications*
+*AI & Data Science Enthusiast | Energy & Finance Applications*
