@@ -37,15 +37,6 @@ This application enables:
 * Incorporate ensemble learning for improved accuracy.
 * Export predictions to Excel/CSV reports.
 
----
-
-## Model Training Notes
-
-* Sector labels encoded using `LabelEncoder`.
-* Historical datetime features are parsed into `Year`, `Month`, and optionally `Quarter`.
-* Separate models trained for total usage and sector-specific forecasts.
-* Replace synthetic predictions (`np.random.uniform`) with trained model output using:
-
 ## Author
 **Akinola Mofe**
 *AI & Data Science, Energy Enthusiast | Energy & Finance Applications*
